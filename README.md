@@ -1,2 +1,2 @@
 # Cobol-001
-Divers programmes écris en COBOL
+Divers programmes écrits en COBOL
