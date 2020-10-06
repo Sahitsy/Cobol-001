@@ -1,7 +1,7 @@
        IDENTIFICATION DIVISION.
       *=================================================================
        PROGRAM-ID. Hello2.
-      *DESCRIPTION : Lecture de fichier et affichage
+      *DESCRIPTION : Lecture de fichier et affichage.
       *-----------------------------------------------------------------
 
       *=================================================================
