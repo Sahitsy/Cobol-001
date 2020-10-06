@@ -18,7 +18,7 @@
       *---------------------
        FILE-CONTROL.
       *-------------
-      *--- Accès aux fichiers
+      *--- Acces aux fichiers
            SELECT F-ENT     ASSIGN TO 'MonFichier.txt'
                             ORGANIZATION IS LINE SEQUENTIAL
                             FILE STATUS IS L-STS-ENT.
@@ -53,7 +53,7 @@
       *  FILE STATUS
        01 L-STS-ENT           PIC 9(2).
 
-      * FIN DE FICHIER (Booléen)
+      * FIN DE FICHIER (Booleen)
        01  L-ENT-EOF          PIC X.
            88 L-ENT-EOF-OUI   VALUE 'O'.
            88 L-ENT-EOF-NON   VALUE 'N'.
@@ -69,7 +69,7 @@
       *    Appel du paragraphe : OUVERTURE-FICHIER
            PERFORM OUVERTURE-FICHIER
 
-      *    Appel du paragraphe : LECTURE-FICHIER jusqu'à fin fichier
+      *    Appel du paragraphe : LECTURE-FICHIER jusqu'a fin fichier
            PERFORM UNTIL L-ENT-EOF-OUI
               PERFORM LECTURE-FICHIER
            END-PERFORM
