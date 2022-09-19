@@ -6,3 +6,5 @@ Divers programmes écrits en COBOL
 1. **Hello.cbl**: Template d'un programme COBOL classique et affichage du "Hello World".
 
 2. **Hello2.cbl**: Suite du programme Hello avec lecture de fichier.
+
+3. **FizzBuzz.cbl**: Programme FizzBuzz en COBOL.
